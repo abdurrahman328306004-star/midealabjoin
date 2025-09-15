@@ -48,34 +48,11 @@ body {
   position: relative;
 }
 
-.dynamic-3d-card::before {
-  content: '';
-  position: absolute;
-  top: -4px;
-  left: -4px;
-  right: -4px;
-  bottom: -4px;
-  background: linear-gradient(45deg, #a855f7, #9333ea, #7c3aed, #a855f7);
-  border-radius: inherit;
-  z-index: -1;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  filter: blur(12px);
+.dynamic-3d-card:hover {
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.3), 0 0 40px rgba(168, 85, 247, 0.1);
+  border-color: rgba(168, 85, 247, 0.5);
 }
 
-.dynamic-3d-card:hover::before {
-  opacity: 0.3;
-  animation: neon-pulse 2s infinite alternate;
-}
-
-@keyframes neon-pulse {
-  0% {
-    filter: blur(12px) brightness(1);
-  }
-  100% {
-    filter: blur(16px) brightness(1.2);
-  }
-}
 
 @keyframes fadeInUp {
   to {
