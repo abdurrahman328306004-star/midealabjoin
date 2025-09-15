@@ -11,6 +11,14 @@ const ProblemSolution: React.FC = () => {
           <p className="text-xl text-gray-400 leading-relaxed">
             The path to becoming a successful creator is filled with roadblocks: inconsistent paychecks, the struggle to find reliable brand deals, and the overwhelming feeling of not knowing where to start. You're talented, but your income shouldn't be a guessing game.
           </p>
+          <div className="mt-8">
+            <a 
+              href="#join" 
+              className="inline-block bg-purple-500 hover:bg-purple-600 text-stone-950 font-bold px-10 py-4 rounded-full shadow-lg hover:shadow-purple-500/30 transition-all duration-300 hover:-translate-y-1 text-lg"
+            >
+              Get Reliable Income Now
+            </a>
+          </div>
         </div>
         <div className="animate-on-scroll dynamic-3d-card">
           <div className="rounded-xl overflow-hidden shadow-lg">

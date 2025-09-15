@@ -11,20 +11,28 @@ const BrandTrust: React.FC = () => {
   ];
 
   return (
-    <section className="py-16 px-8 bg-slate-900">
+    <section className="py-20 px-8 bg-slate-900">
       <div className="max-w-6xl mx-auto text-center animate-on-scroll">
-        <h3 className="text-2xl sm:text-3xl font-semibold text-gray-400 mb-8">
+        <h3 className="text-3xl sm:text-4xl font-semibold text-gray-400 mb-12">
           Trusted by Creators and Brands
         </h3>
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center justify-center">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-12 items-center justify-center mb-16">
           {logos.map((logo, index) => (
             <img
               key={index}
               src={logo}
               alt={`Brand Logo ${index + 1}`}
-              className="mx-auto grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300 ease-in-out max-h-16 w-auto"
+              className="mx-auto grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300 ease-in-out max-h-24 w-auto hover:scale-110"
             />
           ))}
+        </div>
+        <div className="text-center">
+          <a 
+            href="#join" 
+            className="inline-block bg-purple-500 hover:bg-purple-600 text-stone-950 font-bold px-12 py-5 rounded-full shadow-lg hover:shadow-purple-500/30 transition-all duration-300 hover:-translate-y-1 text-xl"
+          >
+            Start Your Creator Journey Now
+          </a>
         </div>
       </div>
     </section>
