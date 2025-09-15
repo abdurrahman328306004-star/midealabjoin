@@ -33,7 +33,7 @@ const Testimonials: React.FC = () => {
         {testimonials.map((testimonial, index) => (
           <div
             key={index}
-            className="p-10 rounded-2xl bg-slate-900 border border-slate-800 shadow-xl animate-on-scroll dynamic-3d-card hover:border-purple-500/30 transition-colors duration-300"
+            className="p-10 rounded-2xl bg-slate-900 border border-slate-800 shadow-xl animate-on-scroll testimonial-card hover:border-purple-500/30 transition-all duration-500"
           >
             <p className="text-2xl md:text-3xl font-semibold text-gray-200 mb-8">
               "{testimonial.quote}"
@@ -51,7 +51,7 @@ const Testimonials: React.FC = () => {
       </div>
       <div className="text-center mt-16">
         <a 
-          href="#join" 
+          href="https://whop.com/media-labs?a=muhammadabdurrahman6004" 
           className="inline-block bg-purple-500 hover:bg-purple-600 text-stone-950 font-bold px-12 py-5 rounded-full shadow-lg hover:shadow-purple-500/30 transition-all duration-300 hover:-translate-y-1 text-xl"
         >
           Join These Successful Creators

@@ -6,7 +6,6 @@ import ValueProposition from './components/ValueProposition';
 import Testimonials from './components/Testimonials';
 import Pricing from './components/Pricing';
 import Founder from './components/Founder';
-import LeadCapture from './components/LeadCapture';
 import FAQ from './components/FAQ';
 import FinalCTA from './components/FinalCTA';
 import StickyMobileCTA from './components/StickyMobileCTA';
@@ -23,7 +22,6 @@ function App() {
       <Testimonials />
       <Pricing />
       <Founder />
-      <LeadCapture />
       <FAQ />
       <FinalCTA />
       <StickyMobileCTA />

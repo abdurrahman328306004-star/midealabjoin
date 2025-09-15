@@ -11,7 +11,7 @@ const FinalCTA: React.FC = () => {
           Join a community of top-tier creators and gain the skills, coaching, and brand access you need to succeed.
         </p>
         <a 
-          href="#" 
+          href="https://whop.com/media-labs?a=muhammadabdurrahman6004" 
           className="inline-block bg-purple-500 hover:bg-purple-600 text-stone-950 font-bold px-12 py-5 rounded-full shadow-lg hover:shadow-purple-500/30 transition-all duration-300 hover:-translate-y-1 text-xl"
         >
           Join MediaLabs
